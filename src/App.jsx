@@ -65,7 +65,7 @@ const AppWrapper = () => {
 };
 
 const App = () => (
-  <Router>
+  <Router basename="/salinaka-ecommerce-react">
     <AppWrapper />
   </Router>
 );
