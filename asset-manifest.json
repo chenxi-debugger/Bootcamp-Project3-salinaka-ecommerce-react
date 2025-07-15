@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/salinaka-ecommerce-react/static/css/main.0d6dc32a.css",
-    "main.js": "/salinaka-ecommerce-react/static/js/main.76276409.js",
-    "index.html": "/salinaka-ecommerce-react/index.html",
-    "main.0d6dc32a.css.map": "/salinaka-ecommerce-react/static/css/main.0d6dc32a.css.map",
-    "main.76276409.js.map": "/salinaka-ecommerce-react/static/js/main.76276409.js.map"
+    "main.css": "/Bootcamp-Project3-salinaka-ecommerce-react/static/css/main.0d6dc32a.css",
+    "main.js": "/Bootcamp-Project3-salinaka-ecommerce-react/static/js/main.58aaed71.js",
+    "index.html": "/Bootcamp-Project3-salinaka-ecommerce-react/index.html",
+    "main.0d6dc32a.css.map": "/Bootcamp-Project3-salinaka-ecommerce-react/static/css/main.0d6dc32a.css.map",
+    "main.58aaed71.js.map": "/Bootcamp-Project3-salinaka-ecommerce-react/static/js/main.58aaed71.js.map"
   },
   "entrypoints": [
     "static/css/main.0d6dc32a.css",
-    "static/js/main.76276409.js"
+    "static/js/main.58aaed71.js"
   ]
 }
