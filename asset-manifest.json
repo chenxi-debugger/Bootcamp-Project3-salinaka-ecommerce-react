@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Bootcamp-Project3-salinaka-ecommerce-react/static/css/main.ad414f0c.css",
+    "main.js": "/Bootcamp-Project3-salinaka-ecommerce-react/static/js/main.d7b1f259.js",
+    "index.html": "/Bootcamp-Project3-salinaka-ecommerce-react/index.html",
+    "main.ad414f0c.css.map": "/Bootcamp-Project3-salinaka-ecommerce-react/static/css/main.ad414f0c.css.map",
+    "main.d7b1f259.js.map": "/Bootcamp-Project3-salinaka-ecommerce-react/static/js/main.d7b1f259.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad414f0c.css",
+    "static/js/main.d7b1f259.js"
+  ]
+}
