@@ -1,6 +1,11 @@
 // src/App.jsx
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  useLocation
+} from 'react-router-dom';
 import Basket from './components/basket/Basket';
 import Header from './components/common/Header';
 import Footer from './components/common/Footer';
@@ -17,7 +22,7 @@ import CheckoutStep3 from './components/checkout/CheckoutStep3';
 import AccountPage from './components/auth/AccountPage';
 import EditAccount from './components/auth/EditAccount';
 import FilterPopup from './components/product/FilterPopup';
-import NotFound from './NotFound';
+// import NotFound from './NotFound';
 import * as ROUTES from './constants/routes';
 
 
@@ -57,7 +62,9 @@ const AppWrapper = () => {
         <Route path={ROUTES.CHECKOUT_STEP_3} element={<CheckoutStep3 />} />
         <Route path={ROUTES.ACCOUNT} element={<AccountPage />} />
         <Route path={ROUTES.ACCOUNT_EDIT} element={<EditAccount />} />
-        <Route path={ROUTES.NOTFOUND} element={<NotFound />} />
+        <Route path="*" element={<HomePage />} />
+
+
       </Routes>
       <Footer />
     </>
@@ -65,9 +72,9 @@ const AppWrapper = () => {
 };
 
 const App = () => (
-  <Router basename="/salinaka-ecommerce-react">
+  <BrowserRouter>
     <AppWrapper />
-  </Router>
+  </BrowserRouter>
 );
 
 export default App;

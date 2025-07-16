@@ -1,7 +1,7 @@
 {
   "name": "salinaka-ecommerce-react",
   "version": "0.1.0",
-  "homepage": "https://chenxi-debugger.github.io/salinaka-ecommerce-react",
+  
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.6.1",

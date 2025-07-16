@@ -15,3 +15,4 @@ export const FORGOT_PASSWORD = '/forgot-password';
 export const ACCOUNT = '/account';
 export const ACCOUNT_EDIT = '/account/edit';
 export const NOTFOUND = '*';
+
