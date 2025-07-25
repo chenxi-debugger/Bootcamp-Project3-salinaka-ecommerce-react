@@ -18,18 +18,14 @@ const products = [
     ],
     "selectedSize": "M",
     "selectedColor": "Black",
-    "imageCollection": [
-      "/image/glass_0.png",
-      "/image/glass_2.png",
-      "/image/glass_5.png"
-    ],
+    "imageCollection": ["glass_0.png", "glass_2.png", "glass_5.png"],
     "sizes": [
       28,
       36,
       42
     ],
-    "image": "/image/glass_0.png",
-    "imageUrl": "/image/glass_0.png",
+    "image": "glass_0.png",
+    "imageUrl": "glass_0.png",
     "isFeatured": true,
     "isRecommended": true,
     "availableColors": [
@@ -62,18 +58,14 @@ const products = [
     ],
     "selectedSize": "M",
     "selectedColor": "Black",
-    "imageCollection": [
-      "/image/glass_1.png",
-      "/image/glass_12.png",
-      "/image/glass_5.png"
-    ],
+    "imageCollection": ["glass_1.png", "glass_12.png", "glass_5.png"],
     "sizes": [
       38,
       40,
       42
     ],
-    "image": "/image/glass_1.png",
-    "imageUrl": "/image/glass_1.png",
+    "image": "glass_1.png",
+    "imageUrl": "glass_1.png",
     "isFeatured": false,
     "isRecommended": false,
     "availableColors": [
@@ -116,18 +108,14 @@ const products = [
     ],
     "selectedSize": "M",
     "selectedColor": "Black",
-    "imageCollection": [
-      "/image/glass_2.png",
-      "/image/glass_4.png",
-      "/image/glass_6.png"
-    ],
+    "imageCollection": ["glass_2.png", "glass_4.png", "glass_6.png"],
     "sizes": [
       38,
       40,
       42
     ],
-    "image": "/image/glass_2.png",
-    "imageUrl": "/image/glass_2.png",
+    "image": "glass_2.png",
+    "imageUrl": "glass_2.png",
     "isFeatured": true,
     "isRecommended": false,
     "availableColors": [
@@ -168,18 +156,14 @@ const products = [
     ],
     "selectedSize": "M",
     "selectedColor": "Black",
-    "imageCollection": [
-      "/image/glass_3.png",
-      "/image/glass_8.png",
-      "/image/glass_10.png"
-    ],
+    "imageCollection": ["glass_3.png", "glass_8.png", "glass_10.png"],
     "sizes": [
       38,
       40,
       42
     ],
-    "image": "/image/glass_3.png",
-    "imageUrl": "/image/glass_3.png",
+    "image": "glass_3.png",
+    "imageUrl": "glass_3.png",
     "isFeatured": false,
     "isRecommended": true,
     "availableColors": [
@@ -222,18 +206,14 @@ const products = [
     ],
     "selectedSize": "M",
     "selectedColor": "Black",
-    "imageCollection": [
-      "/image/glass_4.png",
-      "/image/glass_8.png",
-      "/image/glass_6.png"
-    ],
+    "imageCollection": ["glass_4.png", "glass_8.png", "glass_6.png"],
     "sizes": [
       38,
       40,
       42
     ],
-    "image": "/image/glass_4.png",
-    "imageUrl": "/image/glass_4.png",
+    "image": "glass_4.png",
+    "imageUrl": "glass_4.png",
     "isFeatured": true,
     "isRecommended": false,
     "availableColors": [
@@ -275,18 +255,14 @@ const products = [
     ],
     "selectedSize": "M",
     "selectedColor": "Black",
-    "imageCollection": [
-      "/image/glass_5.png",
-      "/image/glass_11.png",
-      "/image/glass_17.png"
-    ],
+    "imageCollection": ["glass_5.png", "glass_11.png", "glass_17.png"],
     "sizes": [
       38,
       40,
       42
     ],
-    "image": "/image/glass_5.png",
-    "imageUrl": "/image/glass_5.png",
+    "image": "glass_5.png",
+    "imageUrl": "glass_5.png",
     "isFeatured": false,
     "isRecommended": false,
     "availableColors": [
@@ -325,18 +301,14 @@ const products = [
     ],
     "selectedSize": "M",
     "selectedColor": "Black",
-    "imageCollection": [
-      "/image/glass_6.png",
-      "/image/glass_9.png",
-      "/image/glass_8.png"
-    ],
+    "imageCollection": ["glass_6.png", "glass_9.png", "glass_8.png"],
     "sizes": [
       38,
       40,
       42
     ],
-    "image": "/image/glass_6.png",
-    "imageUrl": "/image/glass_6.png",
+    "image": "glass_6.png",
+    "imageUrl": "glass_6.png",
     "isFeatured": true,
     "isRecommended": true,
     "availableColors": [
@@ -374,18 +346,14 @@ const products = [
     ],
     "selectedSize": "M",
     "selectedColor": "Black",
-    "imageCollection": [
-      "/image/glass_7.png",
-      "/image/glass_11.png",
-      "/image/glass_12.png"
-    ],
+    "imageCollection": ["glass_7.png", "glass_11.png", "glass_12.png"],
     "sizes": [
       38,
       40,
       42
     ],
-    "image": "/image/glass_7.png",
-    "imageUrl": "/image/glass_7.png",
+    "image": "glass_7.png",
+    "imageUrl": "glass_7.png",
     "isFeatured": false,
     "isRecommended": false,
     "availableColors": [
@@ -433,18 +401,14 @@ const products = [
     ],
     "selectedSize": "M",
     "selectedColor": "Black",
-    "imageCollection": [
-      "/image/glass_8.png",
-      "/image/glass_11.png",
-      "/image/glass_12.png"
-    ],
+    "imageCollection": ["glass_8.png", "glass_11.png", "glass_12.png"],
     "sizes": [
       38,
       40,
       42
     ],
-    "image": "/image/glass_8.png",
-    "imageUrl": "/image/glass_8.png",
+    "image": "glass_8.png",
+    "imageUrl": "glass_8.png",
     "isFeatured": true,
     "isRecommended": false,
     "availableColors": [
@@ -492,18 +456,14 @@ const products = [
     ],
     "selectedSize": "M",
     "selectedColor": "Black",
-    "imageCollection": [
-      "/image/glass_9.png",
-      "/image/glass_11.png",
-      "/image/glass_12.png"
-    ],
+    "imageCollection": ["glass_9.png", "glass_11.png", "glass_12.png"],
     "sizes": [
       38,
       40,
       42
     ],
-    "image": "/image/glass_9.png",
-    "imageUrl": "/image/glass_9.png",
+    "image": "glass_9.png",
+    "imageUrl": "glass_9.png",
     "isFeatured": false,
     "isRecommended": true,
     "availableColors": [
@@ -551,18 +511,14 @@ const products = [
     ],
     "selectedSize": "M",
     "selectedColor": "Black",
-    "imageCollection": [
-      "/image/glass_10.png",
-      "/image/glass_11.png",
-      "/image/glass_12.png"
-    ],
+    "imageCollection": ["glass_10.png", "glass_11.png", "glass_12.png"],
     "sizes": [
       38,
       40,
       42
     ],
-    "image": "/image/glass_10.png",
-    "imageUrl": "/image/glass_10.png",
+    "image": "glass_10.png",
+    "imageUrl": "glass_10.png",
     "isFeatured": true,
     "isRecommended": false,
     "availableColors": [
@@ -604,18 +560,14 @@ const products = [
     ],
     "selectedSize": "M",
     "selectedColor": "Black",
-    "imageCollection": [
-      "/image/glass_11.png",
-      "/image/glass_13.png",
-      "/image/glass_12.png"
-    ],
+    "imageCollection": ["glass_11.png", "glass_13.png", "glass_12.png"],
     "sizes": [
       38,
       40,
       42
     ],
-    "image": "/image/glass_11.png",
-    "imageUrl": "/image/glass_11.png",
+    "image": "glass_11.png",
+    "imageUrl": "glass_11.png",
     "isFeatured": false,
     "isRecommended": false,
     "availableColors": [
@@ -657,18 +609,14 @@ const products = [
     ],
     "selectedSize": "M",
     "selectedColor": "Black",
-    "imageCollection": [
-      "/image/glass_12.png",
-      "/image/glass_13.png",
-      "/image/glass_14.png"
-    ],
+    "imageCollection": ["glass_12.png", "glass_13.png", "glass_14.png"],
     "sizes": [
       38,
       40,
       42
     ],
-    "image": "/image/glass_12.png",
-    "imageUrl": "/image/glass_12.png",
+    "image": "glass_12.png",
+    "imageUrl": "glass_12.png",
     "isFeatured": true,
     "isRecommended": true,
     "availableColors": [
@@ -716,18 +664,14 @@ const products = [
     ],
     "selectedSize": "M",
     "selectedColor": "Black",
-    "imageCollection": [
-      "/image/glass_13.png",
-      "/image/glass_11.png",
-      "/image/glass_15.png"
-    ],
+    "imageCollection": ["glass_13.png", "glass_11.png", "glass_15.png"],
     "sizes": [
       38,
       40,
       42
     ],
-    "image": "/image/glass_13.png",
-    "imageUrl": "/image/glass_13.png",
+    "image": "glass_13.png",
+    "imageUrl": "glass_13.png",
     "isFeatured": false,
     "isRecommended": false,
     "availableColors": [
@@ -771,18 +715,14 @@ const products = [
     ],
     "selectedSize": "M",
     "selectedColor": "Black",
-    "imageCollection": [
-      "/image/glass_14.png",
-      "/image/glass_15.png",
-      "/image/glass_13.png"
-    ],
+    "imageCollection": ["glass_14.png", "glass_15.png", "glass_13.png"],
     "sizes": [
       38,
       40,
       42
     ],
-    "image": "/image/glass_14.png",
-    "imageUrl": "/image/glass_14.png",
+    "image": "glass_14.png",
+    "imageUrl": "glass_14.png",
     "isFeatured": true,
     "isRecommended": false,
     "availableColors": [
@@ -824,18 +764,14 @@ const products = [
     ],
     "selectedSize": "M",
     "selectedColor": "Black",
-    "imageCollection": [
-      "/image/glass_15.png",
-      "/image/glass_14.png",
-      "/image/glass_13.png"
-    ],
+    "imageCollection": ["glass_15.png", "glass_14.png", "glass_13.png"],
     "sizes": [
       38,
       40,
       42
     ],
-    "image": "/image/glass_15.png",
-    "imageUrl": "/image/glass_15.png",
+    "image": "glass_15.png",
+    "imageUrl": "glass_15.png",
     "isFeatured": false,
     "isRecommended": true,
     "availableColors": [
@@ -878,18 +814,14 @@ const products = [
     ],
     "selectedSize": "M",
     "selectedColor": "Black",
-    "imageCollection": [
-      "/image/glass_16.png",
-      "/image/glass_14.png",
-      "/image/glass_13.png"
-    ],
+    "imageCollection": ["glass_16.png", "glass_14.png", "glass_13.png"],
     "sizes": [
       38,
       40,
       42
     ],
-    "image": "/image/glass_16.png",
-    "imageUrl": "/image/glass_16.png",
+    "image": "glass_16.png",
+    "imageUrl": "glass_16.png",
     "isFeatured": true,
     "isRecommended": false,
     "availableColors": [
@@ -937,18 +869,14 @@ const products = [
     ],
     "selectedSize": "M",
     "selectedColor": "Black",
-    "imageCollection": [
-      "/image/glass_17.png",
-      "/image/glass_14.png",
-      "/image/glass_13.png"
-    ],
+    "imageCollection": ["glass_17.png", "glass_14.png", "glass_13.png"],
     "sizes": [
       38,
       40,
       42
     ],
-    "image": "/image/glass_17.png",
-    "imageUrl": "/image/glass_17.png",
+    "image": "glass_17.png",
+    "imageUrl": "glass_17.png",
     "isFeatured": false,
     "isRecommended": false,
     "availableColors": [

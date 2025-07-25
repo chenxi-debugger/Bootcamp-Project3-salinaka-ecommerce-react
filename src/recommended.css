@@ -1,43 +1,88 @@
-.section-4{
-    margin-bottom: 100px;
-    max-width: 1200px; 
-    margin: 0 auto; 
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 100px;
-}
+/* ====== Recommended Section (Section-4) ====== */
 
-.section-4-hero-wrapper{
+.section-4 {
+    margin: 0 auto 100px auto;
+    max-width: 1400px;
+  
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .section-4-hero-wrapper {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 80px;
-    
-}
-.section-4-title{
-    width: 90%;
-    height: 400px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  
+  .section-4-title {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(243, 243, 243);
-}
-
-.section-4-content{
-    font-size: 32px;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 3rem;
+    border-radius: 8px;
+  }
+  
+  .section-4-content {
+    font-size: 2.5rem;
     width: 50%;
-    padding-left: 40px;
-}
-.section-4-picture{
+    box-sizing: border-box;
+    font-weight: bold;
+    color: #1a1a1a;
+  }
+  
+  .section-4-picture {
     width: 50%;
-    height: 400px;
-}
-
-.section-4-picture-content{
-   height: 100%;
-   width: 100%;
-   object-fit: cover;
-}
-
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .section-4-picture-content {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .featured-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    box-sizing: border-box;
+    justify-items: center;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .section-4-title {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .section-4-content,
+    .section-4-picture {
+      width: 100%;
+      padding: 1.5rem;
+    }
+  
+    .section-4-content {
+      font-size: 1.5rem;
+    }
+  
+    .section-4-picture-content {
+      object-fit: contain;
+      max-height: 250px;
+    }
+  }
+  

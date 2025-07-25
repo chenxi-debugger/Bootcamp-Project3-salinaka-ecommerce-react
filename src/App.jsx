@@ -63,8 +63,6 @@ const AppWrapper = () => {
         <Route path={ROUTES.ACCOUNT} element={<AccountPage />} />
         <Route path={ROUTES.ACCOUNT_EDIT} element={<EditAccount />} />
         <Route path="*" element={<HomePage />} />
-
-
       </Routes>
       <Footer />
     </>

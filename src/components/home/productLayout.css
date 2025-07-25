@@ -1,63 +1,72 @@
-.section-1{
-    padding: 40px;
-    max-width: 1200px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0 auto;
-}
-.section-2 {
-    padding: 40px;
-    max-width: 1200px; /* Limit the width for larger screens */
-    margin: 0 auto; /* Center the content */
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 80px;
+/* ====== General Layout ====== */
+
+.section-1,
+.section-2 { 
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 80px;
+  box-sizing: border-box;
 }
 
-/* Section Title and Link */
+/* ====== Section Title and Link ====== */
+
 .section-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 .section-title h2 {
-    font-size: 32px;
-    font-weight: 700;
-    color: #1a1a1a;
-    margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
 }
 
 .small-link {
-    font-size: 18px;
-    display: block;
-    color: rgb(16, 16, 16);
-    cursor: pointer;
-    font-weight: 700;
-    margin-right: -40px;
+  font-size: 18px;
+  display: block;
+  color: rgb(16, 16, 16);
+  cursor: pointer;
+  font-weight: 700;
+  margin-right: -40px;
 }
 
-/* Featured Grid */
+/* ====== Featured Product Grid ====== */
+
 .featured-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columns on large screens */
-    gap: 20px; /* Space between cards */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
-/* Responsive Adjustments */
-@media (max-width: 1024px) {
-    .featured-grid {
-        grid-template-columns: repeat(3, 1fr); /* 3 columns on medium screens */
-    }
+/* ====== Card and Image Defaults ====== */
+
+.card {
+    height: 100%;
+    aspect-ratio: 1 / 1.2; /* 保持统一比例布局卡片 */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
 }
 
-@media (max-width: 768px) {
-    .featured-grid {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
-    }
-}
+/* ====== Responsive Text ====== */
 
-@media (max-width: 480px) {
-    .featured-grid {
-        grid-template-columns: 1fr; /* 1 column on very small screens */
-    }
+.card h4,
+.card p {
+  text-align: center;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #333;
+  word-break: break-word;
 }

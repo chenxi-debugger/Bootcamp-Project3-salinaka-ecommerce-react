@@ -1,0 +1,164 @@
+/* home.css */
+
+.home-wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #f4f4f4;
+    
+  }
+  
+  .hero-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .hero-text {
+    flex: 1 1 40%;
+    padding-left: 3rem; 
+  }
+  
+  .hero-text h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    color: #1a1a1a;
+  }
+  
+  .hero-text p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+  
+  .hero-text .button {
+    background-color: #000;
+    color: #fff;
+    padding: 0.8rem 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+  }
+  
+  .hero-img {
+    flex: 1 1 48%;
+  }
+  
+  .hero-img img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  /* Products Section */
+  .products-section {
+    margin: 5rem 0;
+  }
+  
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .section-header h2 {
+    font-size: 2rem;
+    color: #1a1a1a;
+    margin: 0;
+  }
+  
+  .see-all {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #1a1a1a;
+    text-decoration: none;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-color: #f4f4f4;
+    aspect-ratio: 1 / 1;
+  }
+  
+  .card-info {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .card-info h4 {
+    margin: 0.5rem 0 0.25rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1a1a1a;
+  }
+  
+  .card-info p {
+    margin: 0;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #777;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .hero-inner {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero-text,
+    .hero-img {
+      flex: 1 1 100%;
+    }
+  
+    .hero-text h1 {
+      font-size: 2rem;
+    }
+  
+    .section-header h2 {
+      font-size: 1.5rem;
+    }
+  
+    .see-all {
+      font-size: 0.9rem;
+    }
+  
+    .card-info h4 {
+      font-size: 1rem;
+    }
+  
+    .card-info p {
+      font-size: 0.85rem;
+    }
+  }
+  
